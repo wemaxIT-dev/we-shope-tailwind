@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web we shope</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+
+<body>
+    <!-- start header section -->
+    <header>
+        <div class="bg-[#F85606]">
+            <div class="max-w-7xl w-[85%] mx-auto pt-5">
+                <div class="flex justify-between text-[#FFFFFF] capitalize">
+                    <!-- dropdown menu us and lang -->
+                    <div class="flex space-x-3">
+                        <div class="flex gap-2">
+                            <span>english</span>
+                            <span class="mt-1"><i class="fa-solid fa-angle-down"></i></span>
+                        </div>
+                        <div class="flex gap-2">
+                            <span>U.S Dollar</span>
+                            <span class="mt-1"><i class="fa-solid fa-angle-down"></i></span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <ul class="flex gap-x-5 items-center">
+                            <li class="text-[12px] text-white font-normal"><a href="#">Become a seller</a> </li>
+                            <li>|</li>
+                            <li class="text-[12px] text-white font-normal"><a href="#">help & support</a> </li>
+                            <li>|</li>
+                            <li class="text-[12px] text-white font-normal"><a href="#">helpline +01 112 352 566</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- start search area -->
+                <div class="py-5 flex items-center justify-between">
+                    <!-- we shop logo -->
+                    <div>
+                        <a href="#">
+                            <img src="./image/Logo-header.png" alt="header logo">
+                        </a>
+                    </div>
+
+                    <!-- search web input -->
+                    <div class="w-[60%]">
+                        <div class="w-full h-[50px] relative rounded-md text-gray-700">
+                            <input class="w-full h-full bg-white rounded-md px-5 outline-none text-[12px] font-semibold"
+                                placeholder="Search in WeShop" type="text" name="search">
+                            <span class="absolute top-2.5 right-4 text-[20px]"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        </div>
+                    </div>
+
+                    <!-- login -->
+                    <a href="#" class="flex items-center capitalize text-white space-x-1">
+                        <img src="./image/user.png" alt="user login logo">
+                        <span class="text-[16px] font-bold">login</span>
+                    </a>
+
+                    <!-- sign up -->
+                    <a href="#" class="text-white font-bold capitalize">
+                        <span>sign up</span>
+                    </a>
+
+                    <!-- shopping cart -->
+                    <div>
+                        <a href="#" class="flex relative">
+                            <img src="./image/shopping-cart-1.png" alt="shopping-cart logo header">
+                            <div
+                                class="absolute -top-1 -right-2 w-4 h-4 bg-white text-black text-[10px] font-bold flex items-center justify-center rounded-full">
+                                <span class="text-[#F85606]">2</span>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- nav products list -->
+        <nav>
+            <div class="max-w-7xl w-[85%] mx-auto pt-6">
+                <ul class="flex flex-wrap justify-around gap-x-2 gap-y-4">
+                    <li class="text-[16px] font-normal text-black capitalize"><a href="#">women's & girls' fashion</a>
+                    </li>
+                    <li>|</li>
+                    <li class="text-[16px] font-normal text-black capitalize"><a href="#">health & beauty</a></li>
+                    <li>|</li>
+                    <li class="text-[16px] font-normal text-black capitalize"><a href="#">watches,bags,jewellery</a>
+                    </li>
+                    <li>|</li>
+                    <li class="text-[16px] font-normal text-black capitalize"><a href="#">men's & boys' fashion</a></li>
+                    <li>|</li>
+                    <li class="text-[16px] font-normal text-black capitalize"><a href="#">mother & baby</a></li>
+                    <li>|</li>
+                    <li class="text-[16px] font-normal text-black capitalize"><a href="#">electronics devices</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- end header section -->
+
+    <!-- start sub header section -->
+    <section>
+        <div class="max-w-7xl w-[85%] mx-auto">
+            <div class="overflow-hidden py-10">
+                <!-- <div class="grid grid-cols-1 md:grid-cols-7 gap-5">
+                    <div class="md:col-span-4">
+                        <img class="w-full h-full" src="./image/summer-fashion.png" alt="summer-fashion on sub-header">
+                    </div>
+                    <div class="md:col-span-3">
+                        <div><img class="" src="./image/new-panjabi.png" alt="new-panjabi on sub-header"></div>
+                        <div><img class="" src="./image/wireless.png" alt="wireless on sub-header"></div>
+                    </div>
+                </div> -->
+
+                <div class="grid grid-cols-1 md:grid-cols-5 gap-5 h-full py-5">
+                    <!-- Left side: Big section -->
+                    <div class="col-span-1 md:col-span-3  flex flex-col justify-center items-center bg-cover h-[378px]"
+                        style="background-image: url('./image/summer-fashion.png');">
+
+                    </div>
+
+                    <!-- Right side: Two banners stacked -->
+                    <div class="col-span-1 md:col-span-2 flex flex-col gap-5">
+                        <!-- Top small banner -->
+                        <div class="bg-green-100 p-6 flex flex-col items-center justify-center text-center h-[150px]"
+                            style="background-image: url('./image/new-panjabi.png');">
+
+                        </div>
+
+                        <!-- Bottom small banner -->
+                        <div class="bg-blue-700 p-6 flex flex-col items-center justify-center text-center h-[150px]"
+                            style="background-image: url('./image/wireless.png');">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+    <!-- end sub header section -->
+
+
+    <!-- start catagory section -->
+    <section>
+        <div class="max-w-7xl w-[85%] mx-auto">
+            <div class="flex flex-wrap gap-10 justify-around my-10 items-baseline">
+                <div class="justify-center w-[180px]">
+                    <img class="mx-auto" src="./image/low-price.png" alt="catagory image in low-price">
+                    <h3 class="capitalize text-center mt-3 text-[16px] font-medium">Everyday Low Price!</h3>
+                </div>
+                <div class="justify-center w-[180px]">
+                    <img class="mx-auto" src="./image/free-delivery.png" alt="catagory image in free-delivery">
+                    <h3 class="capitalize text-center mt-3 text-[16px] font-medium">Free Delivery</h3>
+                </div>
+                <div class="justify-center w-[180px]">
+                    <img class="mx-auto" src="./image/fashion.png" alt="catagory image in fashion">
+                    <h3 class="capitalize text-center mt-3 text-[16px] font-medium">fashion</h3>
+                </div>
+                <div class="justify-center w-[180px]">
+                    <img class="mx-auto" src="./image/beauty-and-glamour.png"
+                        alt="catagory image in beauty-and-glamour">
+                    <h3 class="capitalize text-center mt-3 text-[16px] font-medium">beauty & glamour</h3>
+                </div>
+                <div class="justify-center w-[180px]">
+                    <img class="mx-auto" src="./image/home-makeover.png" alt="catagory image in home-makeover">
+                    <h3 class="capitalize text-center mt-3 text-[16px] font-medium">home makeover</h3>
+                </div>
+                <div class="justify-center w-[180px]">
+                    <img class="mx-auto" src="./image/best-price.png" alt="catagory image in best-price">
+                    <h3 class="capitalize text-center mt-3 text-[16px] font-medium">best-price</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end catagory section -->
+
+    <!-- start 7 day to shop -->
+    <section class="bg-[#F85606]">
+        <div class="max-w-7xl w-[85%] mx-auto">
+            <div class="flex items-center justify-center py-7 gap-3 md:gap-8">
+                <p class="text-[25px] md:text-[35px] lg:text-[45px] font-semibold md:font-bold text-white uppercase">7
+                    REASONE, 7 DAYS TO SHOP</p>
+                <img src="./image/shopping-bag-logo.png" alt="reasone 7 day shopping bag logo">
+            </div>
+        </div>
+    </section>
+    <!-- end 7 day to shop -->
+
+    <!-- start on sale now section -->
+    <section>
+        <div class="max-w-7xl w-[85%] mx-auto">
+            <div>
+                <div class="flex justify-between items-center py-10 gap-3">
+                    <div>
+                        <h3 class="font-semibold sm:font-bold text-[20px] md:text-[25px] uppercase">On Sale Now</h3>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-6 justify-end">
+                        <p class="text-[20px] font-semibold uppercase">Ending in</p>
+                        <div class="flex gap-2">
+                            <div class="w-8 md:w-11 h-8 md:h-11 bg-[#f85606] flex justify-center items-center"><span
+                                    class="font-semibold text-[16px] md:text-[20px] text-white">7</span></div>
+                            <div class="w-8 md:w-11 h-8 md:h-11 bg-[#f85606] flex justify-center items-center"><span
+                                    class="font-semibold text-[16px] md:text-[20px] text-white">22</span></div>
+                            <div class="w-8 md:w-11 h-8 md:h-11 bg-[#f85606] flex justify-center items-center"><span
+                                    class="font-semibold text-[16px] md:text-[20px] text-white">00</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 py-10">
+                    <!-- card 1 -->
+                    <div
+                        class="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-1 duration-300 transition-all hover:shadow-xl transform cursor-pointer">
+
+                        <div class="w-full">
+                            <img src="./image/p-card-image.png" alt="p-card-image image"
+                                class="w-full h-full object-cover" />
+                        </div>
+                        <div class="p-6">
+
+                            <p class="text-black text-[16px] font-normal capitalize">
+                                Whimsical Indispensable -Quality And Durablity
+                            </p>
+                            <h3 class="text-[#F85606] font-medium text-[20px] mt-2"><span><i
+                                        class="fa-solid fa-dollar-sign"></i></span>500</h3>
+                            <div class="flex items-center mt-3 gap-2">
+                                <p class="text-[16px] font-normal text-[#979494] line-through flex items-center"><i
+                                        class="fa-solid fa-dollar-sign text-[14px]"></i>750</p>
+                                <div
+                                    class="w-[55px] h-[22px] flex items-center justify-center bg-[#F85606] text-white text-[12px]">
+                                    -25%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 2 -->
+                    <div
+                        class="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-1 duration-300 transition-all hover:shadow-xl transform cursor-pointer">
+
+                        <div class="w-full">
+                            <img src="./image/p-card-image.png" alt="p-card-image image"
+                                class="w-full h-full object-cover" />
+                        </div>
+                        <div class="p-6">
+
+                            <p class="text-black text-[16px] font-normal capitalize">
+                                Whimsical Indispensable -Quality And Durablity
+                            </p>
+                            <h3 class="text-[#F85606] font-medium text-[20px] mt-2"><span><i
+                                        class="fa-solid fa-dollar-sign"></i></span>500</h3>
+                            <div class="flex items-center mt-3 gap-2">
+                                <p class="text-[16px] font-normal text-[#979494] line-through flex items-center"><i
+                                        class="fa-solid fa-dollar-sign text-[14px]"></i>750</p>
+                                <div
+                                    class="w-[55px] h-[22px] flex items-center justify-center bg-[#F85606] text-white text-[12px]">
+                                    -25%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 3 -->
+                    <div
+                        class="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-1 duration-300 transition-all hover:shadow-xl transform cursor-pointer">
+
+                        <div class="w-full">
+                            <img src="./image/p-card-image.png" alt="p-card-image image"
+                                class="w-full h-full object-cover" />
+                        </div>
+                        <div class="p-6">
+
+                            <p class="text-black text-[16px] font-normal capitalize">
+                                Whimsical Indispensable -Quality And Durablity
+                            </p>
+                            <h3 class="text-[#F85606] font-medium text-[20px] mt-2"><span><i
+                                        class="fa-solid fa-dollar-sign"></i></span>500</h3>
+                            <div class="flex items-center mt-3 gap-2">
+                                <p class="text-[16px] font-normal text-[#979494] line-through flex items-center"><i
+                                        class="fa-solid fa-dollar-sign text-[14px]"></i>750</p>
+                                <div
+                                    class="w-[55px] h-[22px] flex items-center justify-center bg-[#F85606] text-white text-[12px]">
+                                    -25%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card 4 -->
+                    <div
+                        class="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-1 duration-300 transition-all hover:shadow-xl transform cursor-pointer">
+
+                        <div class="w-full">
+                            <img src="./image/p-card-image.png" alt="p-card-image image"
+                                class="w-full h-full object-cover" />
+                        </div>
+                        <div class="p-6">
+
+                            <p class="text-black text-[16px] font-normal capitalize">
+                                Whimsical Indispensable -Quality And Durablity
+                            </p>
+                            <h3 class="text-[#F85606] font-medium text-[20px] mt-2"><span><i
+                                        class="fa-solid fa-dollar-sign"></i></span>500</h3>
+                            <div class="flex items-center mt-3 gap-2">
+                                <p class="text-[16px] font-normal text-[#979494] line-through flex items-center"><i
+                                        class="fa-solid fa-dollar-sign text-[14px]"></i>750</p>
+                                <div
+                                    class="w-[55px] h-[22px] flex items-center justify-center bg-[#F85606] text-white text-[12px]">
+                                    -25%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end on sale now section -->
+
+    <!-- start we shop mall -->
+    <section>
+        <div class="max-w-7xl w-[85%] mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 py-14  mb-10 gap-5 items-center">
+                <div>
+                    <img class="w-full" src="./image/image-a-b-m.png" alt="image of we shop mall abm">
+                </div>
+                <div class="grid grid-cols-2 gap-14">
+                    <a href="#"
+                        class="justify-center items-baseline hover:-translate-y-1 duration-300 transition-all transform">
+                        <img class="mx-auto" src="./image/men-shoes.png" alt="men shoes of we shop mall">
+                        <h3 class="uppercase text-center mt-3 text-[20px] font-medium text-black">men shoes</h3>
+                    </a>
+                    <a href="#"
+                        class="justify-center items-baseline hover:-translate-y-1 duration-300 transition-all transform">
+                        <img class="mx-auto" src="./image/women-fashion.png" alt="women fashion of we shop mall">
+                        <h3 class="uppercase text-center mt-3 text-[20px] font-medium text-black">women fashion</h3>
+                    </a>
+                    <a href="#"
+                        class="justify-center items-baseline hover:-translate-y-1 duration-300 transition-all transform">
+                        <img class="mx-auto" src="./image/men-fashion.png" alt="women fashion of we shop mall">
+                        <h3 class="uppercase text-center mt-3 text-[20px] font-medium text-black">women fashion</h3>
+                    </a>
+                    <a href="#"
+                        class="justify-center items-baseline hover:-translate-y-1 duration-300 transition-all transform">
+                        <img class="mx-auto" src="./image/accessories.png" alt="accessories of we shop mall">
+                        <h3 class="uppercase text-center mt-3 text-[20px] font-medium text-black">accessories</h3>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end we shop mall -->
+
+    <!-- start free delivery section -->
+    <section class="bg-[#F85606]">
+        <div class="max-w-7xl w-[85%] mx-auto">
+            <div class="flex items-center justify-center py-7 gap-8">
+                <p class="text-[25px] md:text-[35px] lg:text-[45px] font-semibold md:font-bold text-white capitalize">
+                    Free Delivery</p>
+                <img src="./image/free-delivery-logo.png" alt="free delivery section logo">
+            </div>
+        </div>
+    </section>
+    <!-- end free delivery section -->
+
+    <!-- start card all items -->
+    <section>
+        <div class="max-w-7xl w-[85%] mx-auto ">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 gap-y-8 py-14">
+                <!-- card 1 -->
+                <div
+                    class="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-1 duration-300 transition-all hover:shadow-xl transform cursor-pointer">
+
+                    <div class="w-full">
+                        <img src="./image/p-card-image.png" alt="p-card-image image"
+                            class="w-full h-full object-cover" />
+                    </div>
+                    <div class="p-6">
+
+                        <p class="text-black text-[16px] font-normal capitalize">
+                            Whimsical Indispensable -Quality And Durablity
+                        </p>
+                        <h3 class="text-[#F85606] font-medium text-[20px] mt-2"><span><i
+                                    class="fa-solid fa-dollar-sign"></i></span>500</h3>
+                        <div class="flex items-center mt-3 gap-2">
+                            <p class="text-[16px] font-normal text-[#979494] line-through flex items-center"><i
+                                    class="fa-solid fa-dollar-sign text-[14px]"></i>750</p>
+                            <div
+                                class="w-[55px] h-[22px] flex items-center justify-center bg-[#F85606] text-white text-[12px]">
+                                -25%</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div
+                    class="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-1 duration-300 transition-all hover:shadow-xl transform cursor-pointer">
+
+                    <div class="w-full">
+                        <img src="./image/p-card-image.png" alt="p-card-image image"
+                            class="w-full h-full object-cover" />
+                    </div>
+                    <div class="p-6">
+
+                        <p class="text-black text-[16px] font-normal capitalize">
+                            Whimsical Indispensable -Quality And Durablity
+                        </p>
+                        <h3 class="text-[#F85606] font-medium text-[20px] mt-2"><span><i
+                                    class="fa-solid fa-dollar-sign"></i></span>500</h3>
+                        <div class="flex items-center mt-3 gap-2">
+                            <p class="text-[16px] font-normal text-[#979494] line-through flex items-center"><i
+                                    class="fa-solid fa-dollar-sign text-[14px]"></i>750</p>
+                            <div
+                                class="w-[55px] h-[22px] flex items-center justify-center bg-[#F85606] text-white text-[12px]">
+                                -25%</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div
+                    class="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-1 duration-300 transition-all hover:shadow-xl transform cursor-pointer">
+
+                    <div class="w-full">
+                        <img src="./image/p-card-image.png" alt="p-card-image image"
+                            class="w-full h-full object-cover" />
+                    </div>
+                    <div class="p-6">
+
+                        <p class="text-black text-[16px] font-normal capitalize">
+                            Whimsical Indispensable -Quality And Durablity
+                        </p>
+                        <h3 class="text-[#F85606] font-medium text-[20px] mt-2"><span><i
+                                    class="fa-solid fa-dollar-sign"></i></span>500</h3>
+                        <div class="flex items-center mt-3 gap-2">
+                            <p class="text-[16px] font-normal text-[#979494] line-through flex items-center"><i
+                                    class="fa-solid fa-dollar-sign text-[14px]"></i>750</p>
+                            <div
+                                class="w-[55px] h-[22px] flex items-center justify-center bg-[#F85606] text-white text-[12px]">
+                                -25%</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div
+                    class="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-1 duration-300 transition-all hover:shadow-xl transform cursor-pointer">
+
+                    <div class="w-full">
+                        <img src="./image/p-card-image.png" alt="p-card-image image"
+                            class="w-full h-full object-cover" />
+                    </div>
+                    <div class="p-6">
+
+                        <p class="text-black text-[16px] font-normal capitalize">
+                            Whimsical Indispensable -Quality And Durablity
+                        </p>
+                        <h3 class="text-[#F85606] font-medium text-[20px] mt-2"><span><i
+                                    class="fa-solid fa-dollar-sign"></i></span>500</h3>
+                        <div class="flex items-center mt-3 gap-2">
+                            <p class="text-[16px] font-normal text-[#979494] line-through flex items-center"><i
+                                    class="fa-solid fa-dollar-sign text-[14px]"></i>750</p>
+                            <div
+                                class="w-[55px] h-[22px] flex items-center justify-center bg-[#F85606] text-white text-[12px]">
+                                -25%</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 5 -->
+                <div
+                    class="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-1 duration-300 transition-all hover:shadow-xl transform cursor-pointer">
+
+                    <div class="w-full">
+                        <img src="./image/p-card-image.png" alt="p-card-image image"
+                            class="w-full h-full object-cover" />
+                    </div>
+                    <div class="p-6">
+
+                        <p class="text-black text-[16px] font-normal capitalize">
+                            Whimsical Indispensable -Quality And Durablity
+                        </p>
+                        <h3 class="text-[#F85606] font-medium text-[20px] mt-2"><span><i
+                                    class="fa-solid fa-dollar-sign"></i></span>500</h3>
+                        <div class="flex items-center mt-3 gap-2">
+                            <p class="text-[16px] font-normal text-[#979494] line-through flex items-center"><i
+                                    class="fa-solid fa-dollar-sign text-[14px]"></i>750</p>
+                            <div
+                                class="w-[55px] h-[22px] flex items-center justify-center bg-[#F85606] text-white text-[12px]">
+                                -25%</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 6 -->
+                <div
+                    class="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-1 duration-300 transition-all hover:shadow-xl transform cursor-pointer">
+
+                    <div class="w-full">
+                        <img src="./image/p-card-image.png" alt="p-card-image image"
+                            class="w-full h-full object-cover" />
+                    </div>
+                    <div class="p-6">
+
+                        <p class="text-black text-[16px] font-normal capitalize">
+                            Whimsical Indispensable -Quality And Durablity
+                        </p>
+                        <h3 class="text-[#F85606] font-medium text-[20px] mt-2"><span><i
+                                    class="fa-solid fa-dollar-sign"></i></span>500</h3>
+                        <div class="flex items-center mt-3 gap-2">
+                            <p class="text-[16px] font-normal text-[#979494] line-through flex items-center"><i
+                                    class="fa-solid fa-dollar-sign text-[14px]"></i>750</p>
+                            <div
+                                class="w-[55px] h-[22px] flex items-center justify-center bg-[#F85606] text-white text-[12px]">
+                                -25%</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 7 -->
+                <div
+                    class="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-1 duration-300 transition-all hover:shadow-xl transform cursor-pointer">
+
+                    <div class="w-full">
+                        <img src="./image/p-card-image.png" alt="p-card-image image"
+                            class="w-full h-full object-cover" />
+                    </div>
+                    <div class="p-6">
+
+                        <p class="text-black text-[16px] font-normal capitalize">
+                            Whimsical Indispensable -Quality And Durablity
+                        </p>
+                        <h3 class="text-[#F85606] font-medium text-[20px] mt-2"><span><i
+                                    class="fa-solid fa-dollar-sign"></i></span>500</h3>
+                        <div class="flex items-center mt-3 gap-2">
+                            <p class="text-[16px] font-normal text-[#979494] line-through flex items-center"><i
+                                    class="fa-solid fa-dollar-sign text-[14px]"></i>750</p>
+                            <div
+                                class="w-[55px] h-[22px] flex items-center justify-center bg-[#F85606] text-white text-[12px]">
+                                -25%</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 8 -->
+                <div
+                    class="bg-white rounded-lg overflow-hidden shadow-md hover:-translate-y-1 duration-300 transition-all hover:shadow-xl transform cursor-pointer">
+
+                    <div class="w-full">
+                        <img src="./image/p-card-image.png" alt="p-card-image image"
+                            class="w-full h-full object-cover" />
+                    </div>
+                    <div class="p-6">
+
+                        <p class="text-black text-[16px] font-normal capitalize">
+                            Whimsical Indispensable -Quality And Durablity
+                        </p>
+                        <h3 class="text-[#F85606] font-medium text-[20px] mt-2"><span><i
+                                    class="fa-solid fa-dollar-sign"></i></span>500</h3>
+                        <div class="flex items-center mt-3 gap-2">
+                            <p class="text-[16px] font-normal text-[#979494] line-through flex items-center"><i
+                                    class="fa-solid fa-dollar-sign text-[14px]"></i>750</p>
+                            <div
+                                class="w-[55px] h-[22px] flex items-center justify-center bg-[#F85606] text-white text-[12px]">
+                                -25%</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center my-10">
+                <button
+                    class="w-[300px] sm:w-[400px] py-5 border border-[#F85606] rounded-md text-[#F85606] text-[20px] font-medium uppercase hover:bg-[#F85606] hover:text-white duration-500 ease-linear">see
+                    more</button>
+            </div>
+        </div>
+    </section>
+    <!-- end card all items -->
+
+    <!-- start collaboration company logo slider section -->
+    <section>
+        <div class="max-w-7xl w-[85%] mx-auto py-10 mb-10 mt-8">
+            <div class="swiper mySwiper-img appearance-none bg-[#ffffff] pt-3 pb-10 z-40">
+                <div class="swiper-wrapper h-[120px] select-none">
+                    <div class="swiper-slide">
+                        <div><img
+                                class="h-full w-full object-cover block hover:scale-125 duration-500 ease-linear cursor-pointer"
+                                src="./image/acson.png" alt="acson logo on slider">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div><img
+                                class="h-full w-full object-cover block hover:scale-125 duration-500 ease-linear cursor-pointer"
+                                src="./image/deerma.png" alt="deerma logo on slider">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div><img
+                                class="h-full w-full object-cover block hover:scale-125 duration-500 ease-linear cursor-pointer"
+                                src="./image/pensonic.png" alt="pensonic logo on slider">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div><img
+                                class="h-full w-full object-cover block hover:scale-125 duration-500 ease-linear cursor-pointer"
+                                src="./image/hitachi.png" alt="hitachi logo on slider">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div><img
+                                class="h-full w-full object-cover block hover:scale-125 duration-500 ease-linear cursor-pointer"
+                                src="./image/panasonic.png" alt="panasonic logo on slider"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div><img
+                                class="h-full w-full object-cover block hover:scale-125 duration-500 ease-linear cursor-pointer"
+                                src="./image/daytech.png" alt="daytech logo on slidre"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div><img
+                                class="h-full w-full object-cover block hover:scale-125 duration-500 ease-linear cursor-pointer"
+                                src="./image/acson.png" alt="acson logo on slider">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div><img
+                                class="h-full w-full object-cover block hover:scale-125 duration-500 ease-linear cursor-pointer"
+                                src="./image/hitachi.png" alt="hitachi logo on slider">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- emd collaboration company logo slider section -->
+
+
+    <!-- end footer section -->
+    <footer>
+        <div class="bg-[#FFF4EB] py-5">
+            <div
+                class="max-w-7xl mx-auto w-[85%] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 pb-10 pt-5">
+                <!-- card 1 -->
+                <div>
+                    <h2 class="text-[20px] font-medium uppercase mt-5 mb-4">customer service</h2>
+                    <ul class="capitalize text-[16px] font-normal space-y-2">
+                        <li><a href="#">Help centre</a></li>
+                        <li><a href="#">how to buy</a> </li>
+                        <li><a href="#">how to sell</a> </li>
+                        <li><a href="#">shopee Pay</a> </li>
+                        <li><a href="#">shopee coins</a> </li>
+                        <li><a href="#">shopee guarantee</a> </li>
+                        <li><a href="#">shopee free shipping program</a> </li>
+                        <li><a href="#">return & refund</a> </li>
+                        <li><a href="#">contact us</a></li>
+                        <li><a href="#">scam safety tips</a> </li>
+                    </ul>
+                </div>
+
+                <!-- card 2 -->
+                <div>
+                    <h2 class="text-[20px] font-medium uppercase mt-5 mb-1">payment</h2>
+                    <div class="flex space-x-5 items-center">
+                        <img class="w-[60px]" src="./image/visa.png" alt="visa-footer-image">
+                        <img class="w-[75px]" src="./image/paypal.png" alt="paypal-footer-image">
+                    </div>
+                </div>
+
+                <!-- card 3 -->
+                <div>
+                    <h2 class="text-[20px] font-medium uppercase mt-5 mb-4">follow us</h2>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="#" class="flex items-center gap-2.5 capitalize">
+                                <div
+                                    class="w-9 h-9 text-white rounded-full flex items-center justify-center bg-[#3B5998]">
+                                    <span><i class="fa-brands fa-facebook-f"></i></span>
+                                </div>
+                                <span class="font-normal">facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center gap-2.5 capitalize">
+                                <div
+                                    class="w-9 h-9 text-white rounded-full flex items-center justify-center bg-slate-600 bg-gradient-to-tl from-[#833ab4] via-[#fd1d1d] to-[#fcb045]">
+                                    <span><i class="fa-brands fa-instagram"></i></span>
+                                </div>
+                                <span class="font-normal">instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center gap-2.5 capitalize">
+                                <div
+                                    class="w-9 h-9 text-white rounded-full flex items-center justify-center bg-[#03A9F4]">
+                                    <span><i class="fa-brands fa-twitter"></i></span>
+                                </div>
+                                <span class="font-normal">twitter</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- card 4 -->
+                <div>
+                    <h2 class="text-[20px] font-medium uppercase mt-5 mb-4">weshopee app download</h2>
+                    <div class="grid grid-cols-2">
+                        <div>
+                            <img src="./image/qr-cod.png" alt="qr-weshopee-image-in footer">
+                        </div>
+                        <div>
+                            <a href="#">
+                                <img src="./image/download-play.png" alt="google-play-image-in-footer">
+                            </a>
+                            <a href="#">
+                                <img src="./image/download-app.png" alt="app-store-image-in-footer">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="my-5 w-full h-[1px] bg-[#D9D9D9]"></div>
+            <div class="pb-2">
+                <p class="text-center text-[16px] font-normal text-[#424040] capitalize">&copy; copyright 2023. all
+                    rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer section -->
+
+
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/swiper.js"></script>
+</body>
+
+</html>
