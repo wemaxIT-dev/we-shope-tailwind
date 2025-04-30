@@ -1,17 +1,16 @@
-// start header phone section
 
-const hamburger = document.querySelector('#hamburger');
-const menu = document.querySelector('#menu');
-const hLink = document.querySelectorAll('.hLink');
-const faSolid = document.querySelector(".fa-solid");
+const inputCount = document.getElementById('counter');
+const incrementButton = document.getElementById('increment');
+const decrementButton = document.getElementById('decrement');
 
-hamburger.addEventListener("click", () => {
-    menu.classList.toggle('hidden');
-    faSolid.classList.toggle('fa-xmark');
-})
-hLink.forEach(link => {
-    link.addEventListener('click', () => {
-        menu.classList.toggle('hidden');
-        faSolid.classList.toggle('fa-xmark');
-    })
-})
+incrementButton.addEventListener('click', () => {
+    inputCount.value = parseInt(inputCount.value) + 1;
+});
+
+decrementButton.addEventListener('click', () => {
+    if (parseInt(inputCount.value) > 1) {
+        inputCount.value = parseInt(inputCount.value) - 1;
+    } else {
+        inputCount.value = 1;
+    }
+});
