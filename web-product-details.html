@@ -7,6 +7,7 @@
     <title>web we shope</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/tabs.css">
     <link rel="stylesheet" href="./css/output.css">
 </head>
 
@@ -219,40 +220,137 @@
     <section>
         <div class="max-w-7xl w-[85%] mx-auto pt-6">
             <div class="my-10">
+                <div class="tabbed">
+                    <input type="radio" id="tab1" name="css-tabs">
+                    <input type="radio" id="tab2" name="css-tabs">
+                    <input type="radio" id="tab3" name="css-tabs" checked>
 
-                <div class="flex space-x-8">
-                    <button
-                        class="py-2 px-8 text-[20px] font-medium text-black border border-transparent hover:border-x hover:border-t hover:border-b hover:border-b-white hover:border-[#676767] hover:bg-white duration-300">Product
-                        details</button>
-                    <button
-                        class="py-2 px-8 text-[20px] font-medium text-black border border-transparent hover:border-x hover:border-t hover:border-b hover:border-b-white hover:border-[#676767] hover:bg-white duration-300">Ratings &
-                        Reviews</button>
-                    <button
-                        class="py-2 px-8 text-[20px] font-medium text-black border border-transparent hover:border-x hover:border-t hover:border-b hover:border-b-white hover:border-[#676767] hover:bg-white duration-300">Questions</button>
-                </div>
-                <div class="border-t border-[#676767] -mt-[1px] pt-5">
-                    <p class="text-[16px] font-normal text-black">Tshirt Size Chart Size :</p>
-                    <p class="text-[16px] font-normal text-black">M (CHEST 38 LENGTH 27)</p>
-                    <p class="text-[16px] font-normal text-black">L (CHEST 40 LENGTH 28)</p>
-                    <p class="text-[16px] font-normal text-black">XL (CHEST 42 LENGTH 29)</p>
-                    <p class="text-[16px] font-normal text-black">XL (CHEST 42 LENGTH 29)</p>
-                    <p class="text-[16px] font-normal text-black my-5">SMUG is a clothing brand based in Bangladesh.
-                        We focus on carefully selecting the best
-                        clothing that is comfortable, looks great,
-                        and makes you confident.</p>
-                    <p class="text-[16px] font-normal text-black my-5">dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
-                        to make a type specimen book. It has survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                        the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                        publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-                    <h2 class="text-[20px] font-medium text-black">Why do we use it?</h2>
-                    <p class="text-[16px] font-normal text-black my-5">dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
-                        to make a type specimen book. It has survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with
-                        the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <ul class="tabs space-x-5 pl-5">
+                        <li class="tab"><label for="tab1"
+                                class="py-2 px-8 text-[20px] font-medium text-black border border-transparent hover:border-x hover:border-t hover:border-b hover:border-b-white hover:border-[#676767] hover:bg-white duration-300 cursor-pointer select-none">Product
+                                details</label></li>
+                        <li class="tab"><label for="tab2"
+                                class="py-2 px-8 text-[20px] font-medium text-black border border-transparent hover:border-x hover:border-t hover:border-b hover:border-b-white hover:border-[#676767] hover:bg-white duration-300 cursor-pointer select-none">Ratings
+                                &
+                                Reviews</label></li>
+                        <li class="tab"><label for="tab3"
+                                class="py-2 px-8 text-[20px] font-medium text-black border border-transparent hover:border-x hover:border-t hover:border-b hover:border-b-white hover:border-[#676767] hover:bg-white duration-300 cursor-pointer select-none">Questions</label>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div class="my-8">
+                            <p class="text-[16px] font-normal text-black">Tshirt Size Chart Size :</p>
+                            <p class="text-[16px] font-normal text-black">M (CHEST 38 LENGTH 27)</p>
+                            <p class="text-[16px] font-normal text-black">L (CHEST 40 LENGTH 28)</p>
+                            <p class="text-[16px] font-normal text-black">XL (CHEST 42 LENGTH 29)</p>
+                            <p class="text-[16px] font-normal text-black">XL (CHEST 42 LENGTH 29)</p>
+                            <p class="text-[16px] font-normal text-black my-5">SMUG is a clothing brand based in
+                                Bangladesh.
+                                We focus on carefully selecting the best
+                                clothing that is comfortable, looks great,
+                                and makes you confident.</p>
+                            <p class="text-[16px] font-normal text-black my-5">dummy text of the printing and
+                                typesetting
+                                industry. Lorem Ipsum has been the industry's standard
+                                dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                scrambled it
+                                to make a type specimen book. It has survived not only five centuries, but also the leap
+                                into
+                                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                                with
+                                the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                                desktop
+                                publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                            <h2 class="text-[20px] font-medium text-black">Why do we use it?</h2>
+                            <p class="text-[16px] font-normal text-black my-5">dummy text of the printing and
+                                typesetting
+                                industry. Lorem Ipsum has been the industry's standard
+                                dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                scrambled it
+                                to make a type specimen book. It has survived not only five centuries, but also the leap
+                                into
+                                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                                with
+                                the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                                desktop
+                                publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        </div>
+                    </div>
+
+                    <div class="tab-content">
+                        <div class="flex flex-wrap my-8 items-center">
+                            <div class="mr-5">
+                                <span class="text-[60px] font-normal text-black">4.5/5</span>
+                                <div class="flex gap-1 text-[#FACA51] text-[30px]">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                                <p class="text-[16px] font-normal mt-3">2207 Ratings</p>
+                            </div>
+                            <div class="space-y-3 ml-10">
+                                <div class="flex gap-1 text-[#FACA51] text-[17px]">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="flex gap-1 text-[#FACA51] text-[17px]">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="flex gap-1 text-[#FACA51] text-[17px]">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="flex gap-1 text-[#FACA51] text-[17px]">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="space-y-4 ml-16">
+                                <div class="w-[270px] h-[13px] bg-[#FFF4EB] rounded-[5px]">
+                                    <div class="w-full h-full bg-[#FACA51] rounded-[5px]"></div>
+                                </div>
+                                <div class="w-[270px] h-[13px] bg-[#FFF4EB] rounded-[5px]">
+                                    <div class="w-[85%] h-full bg-[#FACA51] rounded-[5px]"></div>
+                                </div>
+                                <div class="w-[270px] h-[13px] bg-[#FFF4EB] rounded-[5px]">
+                                    <div class="w-[65%] h-full bg-[#FACA51] rounded-[5px]"></div>
+                                </div>
+                                <div class="w-[270px] h-[13px] bg-[#FFF4EB] rounded-[5px]">
+                                    <div class="w-[40%] h-full bg-[#FACA51] rounded-[5px]"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-content">
+                        <div class="my-10 space-y-5">
+                            <div class="flex gap-3">
+                                <img class="w-[25px] h-[25px] inline-block" src="./image/message-logo.png" alt="message image in tabs section">
+                                <span class="text-black text-[16px] font-normal">It is a long established fact that a reader ?</span>
+                            </div>
+                            <div class="flex gap-3">
+                                <img class="w-[25px] h-[25px] inline-block" src="./image/message-logo.png" alt="message image in tabs section">
+                                <span class="text-black text-[16px] font-normal">Distracted by the readable content of a page when looking at its layout. The point
+                                    of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+                                    as opposed to using 'Content here, ?</span>
+                            </div>
+                            <div class="flex gap-3">
+                                <img class="w-[25px] h-[25px] inline-block" src="./image/message-logo.png" alt="message image in tabs section">
+                                <span class="text-black text-[16px] font-normal">Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover ?</span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
