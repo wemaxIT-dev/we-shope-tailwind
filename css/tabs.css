@@ -9,18 +9,18 @@
     display: none;
 }
 
-.tabs {
+/* .tabs {
     display: flex;
     align-items: stretch;
     list-style: none;
     padding: 0;
     border-bottom: 1px solid #000;
-}
+} */
 
 .tab>label {
     display: block;
     margin-bottom: -1px;
-    border-bottom-color: #000;
+    /* border-bottom-color: #000; */
     transition: all .4s;
 }
 
