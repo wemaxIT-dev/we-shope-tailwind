@@ -1930,6 +1930,10 @@ video {
     gap: 2rem;
   }
 
+  .md\:gap-5 {
+    gap: 1.25rem;
+  }
+
   .md\:space-x-32 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(8rem * var(--tw-space-x-reverse));
@@ -1958,6 +1962,10 @@ video {
 
   .md\:text-\[35px\] {
     font-size: 35px;
+  }
+
+  .md\:text-\[30px\] {
+    font-size: 30px;
   }
 
   .md\:font-bold {
@@ -2000,6 +2008,10 @@ video {
 
   .lg\:justify-between {
     justify-content: space-between;
+  }
+
+  .lg\:justify-around {
+    justify-content: space-around;
   }
 
   .lg\:space-x-5 > :not([hidden]) ~ :not([hidden]) {
