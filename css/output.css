@@ -2032,4 +2032,8 @@ video {
   .lg\:text-\[45px\] {
     font-size: 45px;
   }
+
+  .lg\:text-\[25px\] {
+    font-size: 25px;
+  }
 }
