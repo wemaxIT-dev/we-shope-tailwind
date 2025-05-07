@@ -872,6 +872,10 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
 .block {
   display: block;
 }
@@ -2114,6 +2118,14 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.pt-7 {
+  padding-top: 1.75rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2954,6 +2966,10 @@ video {
 
   .lg\:grid-cols-8 {
     grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+
+  .lg\:justify-normal {
+    justify-content: normal;
   }
 
   .lg\:gap-4 {
