@@ -2581,6 +2581,18 @@ body{
 }
 
 @media (min-width: 1280px){
+  .xl\:max-w-\[90\%\]{
+    max-width: 90%;
+  }
+
+  .xl\:max-w-\[85\%\]{
+    max-width: 85%;
+  }
+
+  .xl\:max-w-\[80\%\]{
+    max-width: 80%;
+  }
+
   .xl\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -2599,5 +2611,11 @@ body{
 
   .xl\:pr-28{
     padding-right: 7rem;
+  }
+}
+
+@media (min-width: 1536px){
+  .\32xl\:max-w-\[70\%\]{
+    max-width: 70%;
   }
 }
